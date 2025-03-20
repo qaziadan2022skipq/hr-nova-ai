@@ -5,7 +5,7 @@ import React from "react";
 
 const LandingAddition = () => {
   return (
-    <div className="relative w-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 md:px-16 lg:px-32 py-16 bg-black text-white">
+    <div className="relative w-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 md:px-16 lg:px-32 py-16 bg-[#000000] text-white">
       {/* Left Section - Text */}
       <div className="w-full md:w-1/2 text-left">
         <h3 className="text-sm text-[#01E0FF] uppercase font-semibold mb-2 border-l-4 border-[#01E0FF] pl-2">

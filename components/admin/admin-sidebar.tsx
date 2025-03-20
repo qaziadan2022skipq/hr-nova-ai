@@ -1,5 +1,6 @@
 "use client";
 
+import { adminSidebarRoutes } from "@/constants/admin/admin-dashboard";
 import { sidebarRoutes } from "@/constants/dashboard/dashboard";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
@@ -9,7 +10,7 @@ import { usePathname } from "next/navigation";
 
 const monserrat = Poppins({ weight: "600", subsets: ["latin"] });
 
-const Sidebar = () => {
+const AdminSidebar = () => {
   const pathname = usePathname();
   return (
     <div className="space-y-6 py-3 flex flex-col h-full bg-black text-[#000000] drop-shadow-xl">
@@ -25,10 +26,10 @@ const Sidebar = () => {
             alt="mainlogo"
             className="rounded-full"
           />
-          <h1 className="text-white">HR Nova AI</h1>
+          <h1 className="text-white">HR Nova AI (Admin)</h1>
         </Link>
         <div id="scroll" className="flex flex-col mt-8 gap-y-2 overflow-y-auto overflow-hidden max-h-[71vh]">
-          {sidebarRoutes.map((route) => (
+          {adminSidebarRoutes.map((route) => (
             <Link
               key={route.href}
               href={route.href}
@@ -57,4 +58,4 @@ const Sidebar = () => {
     </div>
   );
 };
-export default Sidebar;
+export default AdminSidebar;

@@ -1,14 +1,6 @@
 import { RxDashboard } from "react-icons/rx";
-import { TbReportAnalytics } from "react-icons/tb";
-import { PiFilesThin } from "react-icons/pi";
-import { BsFileRichtext } from "react-icons/bs";
-import { LuPersonStanding } from "react-icons/lu";
 import { GoPerson } from "react-icons/go";
-import { PiBatteryVerticalLowThin } from "react-icons/pi";
-import { AiOutlineDollar } from "react-icons/ai";
 import { TbReportSearch } from "react-icons/tb";
-import { LuAirplay } from "react-icons/lu";
-import { IoMdPaper } from "react-icons/io";
 
 export const sidebarRoutes = [
   {
@@ -18,75 +10,48 @@ export const sidebarRoutes = [
     color: "text-[#CC302F]",
   },
   {
-    label: "Virtual Veteran’s Officer",
-    icon: PiBatteryVerticalLowThin,
-    href: "/virtual-vso",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Claim Optimization Report",
-    icon: TbReportAnalytics,
-    href: "/claim-optimization-report",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "526-EZ Claim Optimizer",
-    icon: PiFilesThin,
-    href: "/526-EZ-claim-optimization",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Nexus Statement Generator",
-    icon: PiFilesThin,
-    href: "/nexus-statement-generator",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Personal Lay Statement",
-    icon: BsFileRichtext,
-    href: "/personal-lay-statement-generator",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "DBQ Assistant",
-    icon: PiFilesThin,
-    href: "/dbq-assistant",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "C and P Exam Simulation",
-    icon: LuPersonStanding,
-    href: "/c-and-p-exam-simulation",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Denied Claims Assistant",
-    icon: LuAirplay,
-    href: "/ask-the-founder",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Claim Success Tracker",
-    icon: TbReportSearch,
-    href: "/claim-success-tracker",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Resume Builder",
-    icon: IoMdPaper,
-    href: "/resume-builder",
-    color: "text-[#CC302F]",
-  },
-  {
-    label: "Personal Details",
+    label: "Hr Nova AI Assistant",
     icon: GoPerson,
-    href: "/personal-details",
+    href: "/hr-assistant",
     color: "text-[#CC302F]",
   },
   {
-    label: "Manage Subscription",
-    icon: AiOutlineDollar,
-    href: "/manage-subscription",
+    label: "Educational Videos",
+    icon: TbReportSearch,
+    href: "/educational-videos",
     color: "text-[#CC302F]",
+  },
+];
+
+
+export const educationVideosList = [
+  {
+    videLink: "https://www.youtube.com/embed/eDf1ur8T-UE?si=Lv_9BdyHbzsmKJzi",
+    title: "Unlock VA Claim Approval in 30 Days: The Secret Phrases You Need!",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/XYBfhsnHGZ0?si=2lFmtzkwoDNOt51f",
+    title: "New VA Presumptive Conditions: Are You Eligible?",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/JV193Uz6bCc?si=dmpzAj4haQhPRptm",
+    title: "Veterans' VA Denial Crisis 2025: How to Secure Your Benefits!",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/NwJqgFrQAs4?si=sFaJHjD3n631IN2i",
+    title:
+      "Unlock Hidden VA Benefits: Double Your Rating with Secondary Claims!",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/adeV1ihdEQQ?si=lP2LmhcMV5ErZ1pP",
+    title: "Unlock 100% VA Disability with This One Form!",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/6w4jfAW1uIA?si=B-rfud2-UbpsXeyX",
+    title: "Unlocking VA C&P Exam Secrets: Get the Rating You Deserve!",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/6w4jfAW1uIA?si=B-rfud2-UbpsXeyX",
+    title: "Unlocking VA C&P Exam Secrets: Get the Rating You Deserve!",
   },
 ];
