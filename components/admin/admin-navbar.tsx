@@ -1,17 +1,15 @@
 "use server";
 
-import Image from "next/image";
-import MobileSidebar from "./mobile-sidebar";
 import { UserButton } from "@clerk/nextjs";
+import AdminMobileSidebar from "./admin-mobile-sidebar";
 
-const Navbar = async () => {
-  
+const AdminNavbar = async () => {
   return (
     <div className="flex bg-black items-center justify-between p-6">
       <div>
-        <MobileSidebar />
+        <AdminMobileSidebar />
       </div>
-      
+
       <div className="flex justify-end">
         <div className="flex gap-x-2">
           <UserButton />
@@ -20,4 +18,4 @@ const Navbar = async () => {
     </div>
   );
 };
-export default Navbar;
+export default AdminNavbar;

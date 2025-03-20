@@ -1,6 +1,5 @@
+import AdminNavbar from "@/components/admin/admin-navbar";
 import AdminSidebar from "@/components/admin/admin-sidebar";
-import Navbar from "@/components/dashboard/dashboard-navbar";
-
 import { cn } from "@/lib/utils";
 import { auth } from "@clerk/nextjs/server";
 import { Poppins } from "next/font/google";
@@ -18,7 +17,7 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
         <AdminSidebar />
       </div>
       <main className={cn("md:pl-[17rem]")}>
-        <Navbar />
+        <AdminNavbar />
 
         <div className="max-h-screen rounded-tl-lg bg-white px-8">
           {children}
