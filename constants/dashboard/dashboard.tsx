@@ -26,32 +26,44 @@ export const sidebarRoutes = [
 
 export const educationVideosList = [
   {
-    videLink: "https://www.youtube.com/embed/eDf1ur8T-UE?si=Lv_9BdyHbzsmKJzi",
-    title: "Unlock VA Claim Approval in 30 Days: The Secret Phrases You Need!",
+    videLink: "https://www.youtube.com/embed/c8_avX9miag?si=MBFauKrEgiP-8ObN",
+    title: "INTRODUCTION INTO HUMAN RESOURCES MANAGEMENT - LECTURE 01",
   },
   {
-    videLink: "https://www.youtube.com/embed/XYBfhsnHGZ0?si=2lFmtzkwoDNOt51f",
-    title: "New VA Presumptive Conditions: Are You Eligible?",
+    videLink: "https://www.youtube.com/embed/to0b5yZtchc?si=r0kUoIPPar5nvAi5",
+    title: "CANDIDATE SELECTION 1/2 - HRM Lecture 03",
   },
   {
-    videLink: "https://www.youtube.com/embed/JV193Uz6bCc?si=dmpzAj4haQhPRptm",
-    title: "Veterans' VA Denial Crisis 2025: How to Secure Your Benefits!",
+    videLink: "https://www.youtube.com/embed/awuJ2O2SLUs?si=3JCHnSDIh3H7jLI1",
+    title: "TALENT ACQUISITION - HRM Lecture 03",
   },
   {
-    videLink: "https://www.youtube.com/embed/NwJqgFrQAs4?si=sFaJHjD3n631IN2i",
+    videLink: "https://www.youtube.com/embed/iY6e_NDCJgM?si=Kx7vco_RqCA7p-9x",
     title:
-      "Unlock Hidden VA Benefits: Double Your Rating with Secondary Claims!",
+      "COMPENSATION AND BENEFITS - HRM Lecture 05",
   },
   {
-    videLink: "https://www.youtube.com/embed/adeV1ihdEQQ?si=lP2LmhcMV5ErZ1pP",
-    title: "Unlock 100% VA Disability with This One Form!",
+    videLink: "https://www.youtube.com/embed/oDxWXBsR-ig?si=2MVPR9IjkVQMQFSG",
+    title: "WORK - HRM Lecture 08",
   },
   {
-    videLink: "https://www.youtube.com/embed/6w4jfAW1uIA?si=B-rfud2-UbpsXeyX",
-    title: "Unlocking VA C&P Exam Secrets: Get the Rating You Deserve!",
+    videLink: "https://www.youtube.com/embed/yi0HPEleL8Q?si=--UUAcHObs63pdP6",
+    title: "EMPLOYEE SURVEY - HRM Lecture 09",
   },
   {
-    videLink: "https://www.youtube.com/embed/6w4jfAW1uIA?si=B-rfud2-UbpsXeyX",
-    title: "Unlocking VA C&P Exam Secrets: Get the Rating You Deserve!",
+    videLink: "https://www.youtube.com/embed/KVHhupjkT_s?si=ogEeKGecvU695lX3",
+    title: "RETENTION 1/2 - HRM Lecture 10",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/D8VD1PmlJCs?si=v24-mVGWjGGjcsgK",
+    title: "RETENTION 2/2 - HRM Lecture 10",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/7zRvhFb9UUQ?si=1V8vORqlWrs1KcYh",
+    title: "CHANGE MANAGEMENT 1/2 - HRM Lecture 11",
+  },
+  {
+    videLink: "https://www.youtube.com/embed/DGxn_EVbENI?si=83zivDEhzqcCyHTo",
+    title: "HR CONTROLLING AND ANALYTICS - HRM Lecture 14",
   },
 ];
