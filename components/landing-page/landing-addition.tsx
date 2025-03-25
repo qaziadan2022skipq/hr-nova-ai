@@ -34,7 +34,7 @@ const LandingAddition = () => {
           width={500} 
           height={300} 
           alt="Interactive Video Library"
-          className="w-full max-w-md lg:max-w-lg object-contain"
+          className="w-full max-w-md lg:max-w-lg object-contain border-4 rounded-lg"
         />
       </div>
     </div>
